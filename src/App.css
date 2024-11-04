@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: auto;
+  background: #fff;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.header {
+  width: 550px;
+  height: 65px;
+  gap: 10px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.header img {
+  margin-left: 29px;
+  width: 31.31px;
+  height: 26.22px;
+  top: 20px;
+  left: 29px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.header h3 {
+  font-family: Karla;
+  font-size: 20.75px;
+  font-weight: 700;
+  line-height: 24.25px;
+  letter-spacing: -0.1em;
+  text-align: left;
+}
+
+main {
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+main > img {
+  margin-top: 15px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+
+main > .p--top {
+  top: 160px;
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.p--bot {
+  top: 600px;
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+form input {
+  border-radius: 5px;
+  border: 1px black;
+  text-indent: 5px;
+}
+.submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1 / -1;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  font-family: "Karla", sans-serif;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #672280;
+}
